@@ -369,6 +369,7 @@ sup {
   flex-direction: column;
   justify-content: center;
   margin: 1rem auto;
+  column-gap: 2.5rem;
 }
 
 .feature_collabo {
