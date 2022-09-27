@@ -313,7 +313,7 @@ sup {
   flex-direction: column;
   width: 100%;
   margin: 1rem auto;
-  padding: 3.5rem 0rem 3.5rem 0rem;
+  padding: 3.5rem 0rem 2.5rem 0rem;
   align-items: center;
   background-image: url(./images/mid-bg_left.svg),
     url(./images/mid-bg_right.svg);
@@ -327,7 +327,7 @@ sup {
   justify-content: space-evenly;
   width: 75vw;
   margin: 1.5rem auto;
-  padding: 3rem 0rem 3rem 0rem;
+  padding: 1.5rem 0rem 1.5rem 0rem;
 }
 .section-three-left {
   width: 28%;
@@ -361,6 +361,7 @@ sup {
   justify-content: center;
   width: 75vw;
   margin: 5rem auto;
+  column-gap: 2.5rem;
 }
 
 .benefit_cards {
@@ -394,7 +395,7 @@ sup {
   display: flex;
   align-items: center;
   width: 75vw;
-  margin: 3rem auto;
+  margin: 2.5rem auto;
   height: 50rem;
 }
 
@@ -462,7 +463,7 @@ At this point, I need to define one class that carries divs with the below detai
 .plans_row_details {
   display: flex;
   width: 100vw;
-  margin: 3rem auto;
+  margin: 2.5rem auto;
   flex-direction: column;
   justify-content: center;
 }
@@ -525,7 +526,7 @@ At this point, I need to define one class that carries divs with the below detai
   align-items: center;
   text-align: center;
   background-color: var(--color-green);
-  border: 1px solid var(--color-green);
+  border: 0.1rem solid var(--color-green);
   border-radius: 0.75rem;
 }
 
@@ -536,11 +537,11 @@ At this point, I need to define one class that carries divs with the below detai
 /* Plan Cards */
 .plan_cards {
   display: flex;
-  width: 90vw;
+  width: 80vw;
   column-gap: 2.5rem;
   justify-content: space-between;
   align-items: center;
-  margin: 4rem auto;
+  margin: 2rem auto;
 }
 
 .plan_cards_white {
@@ -550,7 +551,7 @@ At this point, I need to define one class that carries divs with the below detai
   justify-content: center;
   align-items: center;
   margin: 5rem auto;
-  height: 60rem;
+  height: 65rem;
   background-color: var(--color-white);
   border: 0.1rem solid rgba(128, 128, 128, 0.116);
   box-shadow: var(--box-shadow);
@@ -565,7 +566,7 @@ At this point, I need to define one class that carries divs with the below detai
   justify-content: center;
   align-items: center;
   margin: 5rem auto;
-  height: 65rem;
+  height: 70rem;
   background-color: var(--color-green);
   color: var(--color-white);
   border: 0.1rem solid rgba(128, 128, 128, 0.116);
@@ -620,6 +621,7 @@ At this point, I need to define one class that carries divs with the below detai
   justify-content: center;
   align-items: center;
 }
+
 .plan_cards_white_btn {
   display: flex;
   width: 85%;
@@ -652,4 +654,106 @@ At this point, I need to define one class that carries divs with the below detai
   font-size: 2rem;
   margin: 2rem 0rem;
   cursor: pointer;
+}
+
+/* Footer Section */
+
+.footer_section {
+  display: flex;
+  width: 100%;
+  height: 80rem;
+  justify-content: center;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  padding: 7rem 5rem 1rem 1rem;
+}
+
+.footer_section h1 {
+  margin-bottom: 3rem;
+}
+
+.footer_section p {
+  margin-bottom: 2.5rem;
+  padding-right: 20rem;
+}
+
+
+.footer_section-one {
+  display: flex;
+  justify-content: space-evenly;
+  width: 75vw;
+}
+
+.footer_section-one_left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.testimony_box {
+ display: flex;
+ height: 5rem;
+ width: 90%;
+ justify-content: flex-start;
+}
+
+.avatars {
+  display: flex;
+  border: none;
+  border-radius: 50%;
+
+}
+
+.footer_section-one_right {
+  width: 40%;
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+}
+
+.demo_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.demo_form_textbox {
+  width: 100%;
+  height: 5rem;
+  background-color: var(--box-bg);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  margin-top: 1rem;
+}
+
+.demo_form_textarea {
+  width: 100%;
+  height: 7.5rem;
+  background-color: var(--box-bg);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  margin-top: 1rem;
+}
+
+
+.demo_form_button {
+  width: 100%;
+  height: 6rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: var(--color-green);
+  color: var(--color-white);
+  text-align: center;
+  margin-top: 2rem;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.center_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 1.5rem;
 }
