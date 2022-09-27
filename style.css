@@ -57,7 +57,7 @@ sup {
 
 .main-container {
   margin: auto;
-  max-width: 75vw;
+  width: 70vw;
 }
 
 .header-container {
@@ -250,7 +250,7 @@ sup {
 
 .section-two-inner {
   display: flex;
-  width: 75vw;
+  width: 70vw;
   margin: 2rem auto;
   padding: 0rem 0rem 5rem 0rem;
 }
@@ -325,7 +325,7 @@ sup {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  width: 75vw;
+  width: 70vw;
   margin: 1.5rem auto;
   padding: 1.5rem 0rem 1.5rem 0rem;
 }
@@ -359,7 +359,7 @@ sup {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 75vw;
+  width: 70vw;
   margin: 5rem auto;
   column-gap: 2.5rem;
 }
@@ -394,7 +394,7 @@ sup {
 .benefits {
   display: flex;
   align-items: center;
-  width: 75vw;
+  width: 70vw;
   margin: 2.5rem auto;
   height: 50rem;
 }
@@ -448,7 +448,7 @@ sup {
 At this point, I need to define one class that carries divs with the below details, instead of repeating it, to improve my dry coding.
 
   display: flex;
-  width: 75vw;
+  width: 70vw;
   margin: 3rem auto;
 
 */
@@ -457,7 +457,7 @@ At this point, I need to define one class that carries divs with the below detai
 
 .plans_row {
   display: flex;
-  width: 75vw;
+  width: 70vw;
 }
 
 .plans_row_details {
@@ -537,7 +537,7 @@ At this point, I need to define one class that carries divs with the below detai
 /* Plan Cards */
 .plan_cards {
   display: flex;
-  width: 80vw;
+  width: 70vw;
   column-gap: 2.5rem;
   justify-content: space-between;
   align-items: center;
@@ -665,7 +665,7 @@ At this point, I need to define one class that carries divs with the below detai
   justify-content: center;
   background-color: var(--color-black);
   color: var(--color-white);
-  padding: 7rem 5rem 1rem 1rem;
+  padding: 7rem 0rem 1rem 0rem;
 }
 
 .footer_section h1 {
@@ -677,11 +677,10 @@ At this point, I need to define one class that carries divs with the below detai
   padding-right: 20rem;
 }
 
-
 .footer_section-one {
   display: flex;
   justify-content: space-evenly;
-  width: 75vw;
+  width: 70vw;
 }
 
 .footer_section-one_left {
@@ -691,17 +690,16 @@ At this point, I need to define one class that carries divs with the below detai
 }
 
 .testimony_box {
- display: flex;
- height: 5rem;
- width: 90%;
- justify-content: flex-start;
+  display: flex;
+  height: 5rem;
+  width: 90%;
+  justify-content: flex-start;
 }
 
 .avatars {
   display: flex;
   border: none;
   border-radius: 50%;
-
 }
 
 .footer_section-one_right {
@@ -709,6 +707,7 @@ At this point, I need to define one class that carries divs with the below detai
   display: flex;
   /* align-items: center; */
   flex-direction: column;
+  padding: 0rem 0rem 0rem 5rem;
 }
 
 .demo_form {
@@ -735,7 +734,6 @@ At this point, I need to define one class that carries divs with the below detai
   padding: 2rem;
   margin-top: 1rem;
 }
-
 
 .demo_form_button {
   width: 100%;
